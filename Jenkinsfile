@@ -28,7 +28,7 @@ pipeline {
 
         stage('Terraform Apply') {
             steps {
-                sh 'terraform apply -auto-approve'
+                sh 'terraform destoy -auto-approve'
             }
         }
     }
